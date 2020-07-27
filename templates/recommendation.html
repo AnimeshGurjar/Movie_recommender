@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <head>
+        <html lang="en" dir="ltr">
+        <meta charset="utf-8">
+        <title>Recommendations</title>
+        <style type="text/css">    
+          body
+          {
+            border: 2px solid black;
+            padding: 0px;
+            background-repeat: no-repeat;
+            background-size: 450px 450px; 
+            background-position: center center;
+            } 
+        </style>  
+    </head>
+
+    <body background-gcolor="Lavender">
+        {% extends "template.html" %}
+        {% block content %}
+            <p>{{ table }}</p>
+        {% endblock %}
+    </body>
+</html>
